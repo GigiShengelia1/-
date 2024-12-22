@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>div2(flex)</title>
+    <style>
+        #containeer {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        #containeer > div {
+            background-color: green;
+            margin: 10px;
+            font-size: larger;
+            width: fit-content;
+            height: auto;
+            text-align: center;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h2>მათემატიკის რესურსები</h2>
+    <p>By Gigi Shengelia</p>
+    <div id="containeer">
+        <div>
+            <a style="color: black"; href="https://www.educaplay.com/learning-resources/18766839-learning_resource.html" target="_blank" title="მათემატიკა">მათემატიკა 1</a>
+        </div>
+        <div>
+            <a style="color: black"; href="https://www.educaplay.com/learning-resources/18835475-learning_resource.html" target="_blank" title="მათემატიკა">მათემატიკა 2</a>
+        </div>
+        <div>
+            <a style="color: black"; href="https://www.educaplay.com/learning-resources/18835754-3.html" target="_blank" title="მათემატიკა">მათემატიკა 3</a>
+        </div>
+    </div>
+</body>
+</html>
